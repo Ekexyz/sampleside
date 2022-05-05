@@ -1,0 +1,349 @@
+{
+  "id": "774bc2fe-8ea5-4592-9ee6-3e11f5712bf5",
+  "version": "2.0",
+  "name": "Sample",
+  "url": "https://www.google.fi",
+  "tests": [{
+    "id": "9a54358b-6879-42c0-9211-44b50662deb2",
+    "name": "sample",
+    "commands": [{
+      "id": "8c37fcdb-ec18-4cac-9737-0e9ee2ada72a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf57ae9a-738c-4185-a0ed-ded1454159c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1452x805",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8393279-3959-44cb-9ad9-eaaf8ea2eaf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#L2AGLb > .QS5gu",
+      "targets": [
+        ["css=#L2AGLb > .QS5gu", "css:finder"],
+        ["xpath=//button[@id='L2AGLb']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e4d5065-47ea-4fa3-8764-4423292cd1f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#L2AGLb > .QS5gu",
+      "targets": [
+        ["css=#L2AGLb > .QS5gu", "css:finder"],
+        ["xpath=//button[@id='L2AGLb']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "763b105c-513f-4301-83c1-b8a4a4a95a49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#L2AGLb > .QS5gu",
+      "targets": [
+        ["css=#L2AGLb > .QS5gu", "css:finder"],
+        ["xpath=//button[@id='L2AGLb']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e354c63-606f-4952-8fee-c6ba9e2b61af",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8f5ab9-1c65-4bb2-964e-2ad41f5e627f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "copado"
+    }, {
+      "id": "c1469911-511d-4669-bef2-31a6c61cab22",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b4ab94f0-ac55-4b4c-8d1f-b196dd70b02e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(1) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Copado: #1 Low-Code DevOps & Testing Tools for Salesforce ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd2b379-2e94-4df9-a1d5-075699a50361",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(1) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Copado: #1 Low-Code DevOps & Testing Tools for Salesforce ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b839683-7a76-42de-b6d6-b39cfa4c3901",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,459)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3300468-dffc-4c4a-a909-11e3624e95ea",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5861ef4-9420-40ec-9f96-4e2ed6782146",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-button > button",
+      "targets": [
+        ["css=.close-button > button", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac1e6a2e-7493-4a12-96c6-2b486d9f3342",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "27b77784-2bcb-4ebd-b603-3308ed19d96a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo",
+      "targets": [
+        ["linkText=Demo", "linkText"],
+        ["css=#menu-quick-links-menu > #menu-item-28827 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Demo')])[3]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-28827']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.copado.com/get-a-demo/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815ef825-f552-432d-b0d7-1796691b9140",
+      "comment": "",
+      "command": "click",
+      "target": "id=pi_tracking_opt_in_yes",
+      "targets": [
+        ["id=pi_tracking_opt_in_yes", "id"],
+        ["linkText=Yes", "linkText"],
+        ["xpath=//a[contains(text(),'Yes')]", "xpath:link"],
+        ["xpath=//a[@id='pi_tracking_opt_in_yes']", "xpath:attributes"],
+        ["xpath=//div[@id='pi_tracking_opt_in_div']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//div[5]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Yes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6559e049-2237-46f9-8591-564ecf925b41",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c78b18-25d7-462b-bc3f-afdbcf395747",
+      "comment": "",
+      "command": "click",
+      "target": "id=372431_533463pi_372431_533463",
+      "targets": [
+        ["id=372431_533463pi_372431_533463", "id"],
+        ["name=372431_533463pi_372431_533463", "name"],
+        ["css=#\\33 72431_533463pi_372431_533463", "css:finder"],
+        ["xpath=//input[@id='372431_533463pi_372431_533463']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67831f62-55b0-4ffd-84b2-3e657b57f085",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_533463pi_372431_533463",
+      "targets": [
+        ["id=372431_533463pi_372431_533463", "id"],
+        ["name=372431_533463pi_372431_533463", "name"],
+        ["css=#\\33 72431_533463pi_372431_533463", "css:finder"],
+        ["xpath=//input[@id='372431_533463pi_372431_533463']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Demo"
+    }, {
+      "id": "d4934168-3eaf-429d-83e1-2a2acaa75ae8",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_533465pi_372431_533465",
+      "targets": [
+        ["id=372431_533465pi_372431_533465", "id"],
+        ["name=372431_533465pi_372431_533465", "name"],
+        ["css=#\\33 72431_533465pi_372431_533465", "css:finder"],
+        ["xpath=//input[@id='372431_533465pi_372431_533465']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "User"
+    }, {
+      "id": "08153251-9664-42ce-aeda-54f6c131a6c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_533467pi_372431_533467",
+      "targets": [
+        ["id=372431_533467pi_372431_533467", "id"],
+        ["name=372431_533467pi_372431_533467", "name"],
+        ["css=#\\33 72431_533467pi_372431_533467", "css:finder"],
+        ["xpath=//input[@id='372431_533467pi_372431_533467']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "demo@demo.com"
+    }, {
+      "id": "49a62569-5334-4134-abea-ccaf1a733537",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_544425pi_372431_544425",
+      "targets": [
+        ["id=372431_544425pi_372431_544425", "id"],
+        ["name=372431_544425pi_372431_544425", "name"],
+        ["css=#\\33 72431_544425pi_372431_544425", "css:finder"],
+        ["xpath=//input[@id='372431_544425pi_372431_544425']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "+3581234567"
+    }, {
+      "id": "d9e7c035-1c6b-4c02-9672-c7e0c667bb95",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_533469pi_372431_533469",
+      "targets": [
+        ["id=372431_533469pi_372431_533469", "id"],
+        ["name=372431_533469pi_372431_533469", "name"],
+        ["css=#\\33 72431_533469pi_372431_533469", "css:finder"],
+        ["xpath=//input[@id='372431_533469pi_372431_533469']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Demo Corp."
+    }, {
+      "id": "65712327-2c10-4a87-a268-286201480464",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_533473pi_372431_533473",
+      "targets": [
+        ["id=372431_533473pi_372431_533473", "id"],
+        ["name=372431_533473pi_372431_533473", "name"],
+        ["css=#\\33 72431_533473pi_372431_533473", "css:finder"],
+        ["xpath=//input[@id='372431_533473pi_372431_533473']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "CIO"
+    }, {
+      "id": "3ad0fa0a-028d-4966-a36b-2b46504bcb86",
+      "comment": "",
+      "command": "type",
+      "target": "id=372431_534477pi_372431_534477",
+      "targets": [
+        ["id=372431_534477pi_372431_534477", "id"],
+        ["name=372431_534477pi_372431_534477", "name"],
+        ["css=#\\33 72431_534477pi_372431_534477", "css:finder"],
+        ["xpath=//input[@id='372431_534477pi_372431_534477']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "3500"
+    }, {
+      "id": "16d91b5b-6d20-4638-89d9-ec07b6940ea9",
+      "comment": "",
+      "command": "click",
+      "target": "id=372431_533475pi_372431_533475",
+      "targets": [
+        ["id=372431_533475pi_372431_533475", "id"],
+        ["name=372431_533475pi_372431_533475", "name"],
+        ["css=#\\33 72431_533475pi_372431_533475", "css:finder"],
+        ["xpath=//select[@id='372431_533475pi_372431_533475']", "xpath:attributes"],
+        ["xpath=//form[@id='pardot-form']/div[8]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Country*\nUnited States\nCanada\nAfghanistan\nAlbania\nAlgeria\nAmerican Samoa\nAndorra\nAngola\nAnguilla\nAntarctica\nAntigua and Barbuda\nArgentina\nArmenia\nAruba\nAustralia\nAustria\nAzerbaijan\nBahamas\nBahrain\nBangladesh\nBarbados\nBelarus\nBelgium\nBelize\nBenin\nBermuda\nBhutan\nBolivia\nBosnia and Herzegovina\nBotswana\nBrazil\nBritish Indian Ocean Territory\nBritish Virgin Islands\nBrunei\nBulgaria\nBurkina Faso\nBurundi\nCambodia\nCameroon\nCape Verde\nCayman Islands\nCentral African Republic\nChad\nChile\nChina\nChristmas Island\nCocos (Keeling) Islands\nColombia\nComoros\nCongo\nCook Islands\nCosta Rica\nCroatia\nCuba\nCuraçao\nCyprus\nCzech Republic\nCôte d’Ivoire\nDemocratic Republic of the Congo\nDenmark\nDjibouti\nDominica\nDominican Republic\nEcuador\nEgypt\nEl Salvador\nEquatorial Guinea\nEritrea\nEstonia\nEthiopia\nFalkland Islands\nFaroe Islands\nFiji\nFinland\nFrance\nFrench Guiana\nFrench Polynesia\nFrench Southern Territories\nGabon\nGambia\nGeorgia\nGermany\nGhana\nGibraltar\nGreece\nGreenland\nGrenada\nGuadeloupe\nGuam\nGuatemala\nGuernsey\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHonduras\nHong Kong S.A.R., China\nHungary\nIceland\nIndia\nIndonesia\nIran\nIraq\nIreland\nIsle of Man\nIsrael\nItaly\nJamaica\nJapan\nJersey\nJordan\nKazakhstan\nKenya\nKiribati\nKuwait\nKyrgyzstan\nLaos\nLatvia\nLebanon\nLesotho\nLiberia\nLibya\nLiechtenstein\nLithuania\nLuxembourg\nMacao S.A.R., China\nMacedonia\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMarshall Islands\nMartinique\nMauritania\nMauritius\nMayotte\nMexico\nMicronesia\nMoldova\nMonaco\nMongolia\nMontenegro\nMontserrat\nMorocco\nMozambique\nMyanmar\nNamibia\nNauru\nNepal\nNetherlands\nNew Caledonia\nNew Zealand\nNicaragua\nNiger\nNigeria\nNiue\nNorfolk Island\nNorth Korea\nNorthern Mariana Islands\nNorway\nOman\nPakistan\nPalau\nPalestinian Territory\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPitcairn\nPoland\nPortugal\nPuerto Rico\nQatar\nRomania\nRussia\nRwanda\nRéunion\nSaint Barthélemy\nSaint Helena\nSaint Kitts and Nevis\nSaint Lucia\nSaint Pierre and Miquelon\nSaint Vincent and the Grenadines\nSamoa\nSan Marino\nSao Tome and Principe\nSaudi Arabia\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSouth Korea\nSouth Sudan\nSpain\nSri Lanka\nSudan\nSuriname\nSvalbard and Jan Mayen\nSwaziland\nSweden\nSwitzerland\nSyria\nTaiwan\nTajikistan\nTanzania\nThailand\nTimor-Leste\nTogo\nTokelau\nTonga\nTrinidad and Tobago\nTunisia\nTurkey\nTurkmenistan\nTurks and Caicos Islands\nTuvalu\nU.S. Virgin Islands\nUganda\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States Minor Outlying Islands\nUruguay\nUzbekistan\nVanuatu\nVatican\nVenezuela\nViet Nam\nWallis and Futuna\nWestern Sahara\nYemen\nZambia\nZimbabwe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9770133-f99f-4d53-b1b4-99613e85373a",
+      "comment": "",
+      "command": "select",
+      "target": "id=372431_533475pi_372431_533475",
+      "targets": [],
+      "value": "label=Austria"
+    }, {
+      "id": "6aa3f4df-a150-4f3e-bf33-e7443c2bb0d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(18)",
+      "targets": [
+        ["css=option:nth-child(18)", "css:finder"],
+        ["xpath=//option[@value='6515679']", "xpath:attributes"],
+        ["xpath=//select[@id='372431_533475pi_372431_533475']/option[18]", "xpath:idRelative"],
+        ["xpath=//option[18]", "xpath:position"],
+        ["xpath=//option[contains(.,'Austria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c7180139-d531-4f79-9cee-9f2563645224",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a54358b-6879-42c0-9211-44b50662deb2"]
+  }],
+  "urls": ["https://www.google.fi/"],
+  "plugins": []
+}
