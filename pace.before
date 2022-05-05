@@ -1,1 +1,1 @@
-wget https://github.com/vmi/selenese-runner-java/releases/download/selenese-runner-java-4.1.0/selenese-runner.jar -P /usr/local/bin/
+wget https://github.com/vmi/selenese-runner-java/releases/download/selenese-runner-java-4.1.0/selenese-runner.jar -P /usr/local/bin/selenese-runner.jar
